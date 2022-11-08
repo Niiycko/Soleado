@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    /*box-sizing:;DEFINE LAS MEDIDAS DE LAS CAJAS,INCLUYE EL CONTENIDO*/
+    box-sizing: border-box;
+}
+
+.hero {
+    width: 100vw;/*OCUPA EL 100% DEL ANCHO DEL DISPOSITIVO*/
+    height: 100vh;/*OCUPA EL 100% DEL ALTO DEL DISPOSITIVO*/
+    /*PREFIJOS DE PROVEEDORES,NOS PROPORCIONAN COMPATIBILIDAD
+     PARA TODOS LOS NAVEGADORES QUE EXISTEN*/
+    /*-webkit- Para Chrome, Safari y todos los iOS
+    -moz- Mozilla Firefox
+    -o- Opera
+    -ms- Internet explorer y Edge*/
+    /*GRADIENTES LINEALES*/
+    /*background: -webkit-linear-gradient(bottom, #e54eab 30%, #e00d2c);
+    background: -moz-linear-gradient(bottom, #e54eab 30%, #e00d2c);
+    background: -o-linear-gradient(bottom, #e54eab 30%, #e00d2c);
+    background: -ms-linear-gradient(bottom, #e54eab 30%, #e00d2c);*/
+    /*GRADIENTES RADIALES(CIRCULO)*/
+    background: -webkit-radial-gradient(circle, #e54eab 50%, #e00d2c);
+    background: -moz-radial-gradient(circle, #e54eab 50%, #e00d2c);
+    background: -o-radial-gradient(circle, #e54eab 50%, #e00d2c);
+    background: -ms-radial-gradient(circle, #e54eab 50%, #e00d2c);
+}
+
+.hero p {
+    padding-top: 200px;
+    text-align: center;
+    color: aliceblue;
+    font-size: 100px;   
+    font-family: 'Anton', sans-serif;
+}
